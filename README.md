@@ -12,6 +12,10 @@ Example scenarios:
 
 features:
 - allowing downloading the current state.  clean the state.  as well as restore the state after testing
+- Change the state according to a json (setup state for testing)
+- Empty state
+- Download state (for restore or syncing)
+- Restore state (restore state after testing)
 
 using https://github.com/Learn-NEAR/starter--near-sdk-as as skeleton for the project
 
