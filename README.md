@@ -9,6 +9,7 @@ Example scenarios:
 - some testing requires an incorrect state, which cannot be achieved easily by simply exercising the contract.
 - sometimes state may contain state's from previous version of contract.
 - taking the state from a mainnet contract, and put it on a contract on testnet to do the test.  (syncing state between mainnet and testnet)
+- testing inter-contract call behavior with 3rd-party contract.  when our contract needs to interact with a third-party contract 2.  but we want to test how it will behave at a certain state, we can deploy contract 2 on testnet and fill it with the state we want to test.  
 
 features:
 - allowing downloading the current state.  clean the state.  as well as restore the state after testing
