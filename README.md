@@ -26,3 +26,16 @@ Let's say we want to test the Counter contract in assemblyscript ( https://githu
 using https://github.com/Learn-NEAR/starter--near-sdk-as as skeleton for the project
 
 
+### Why use it?
+
+Unit test and mocking can only gets us so far.  We do want to test it on environment as close as possible (eg. testnet).  We can use this to rapidly set the state of the contract to be what we wish it to be to make tests easier.
+
+### How does it work?
+
+
+
+### Work in progress / Future plan
+- provide this as a javascript library for testing using javascript.  Currently the example provided was to run this as a shell script as part of your test script
+- support typed json
+- support the class member storage in AS.  There are 2 ways to store in storage.  1. using storage.set()  2. stored as a AS class member.  Currently, the library only supports state stored using storage.set().  We will like to expand the support to the class member.  This might be done by generated code.
+

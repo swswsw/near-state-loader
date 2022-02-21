@@ -41,7 +41,7 @@ export class Contract {
 
 
   // private helper method used by read() and write() above
-  private storageReport(): string {
+  storageReport(): string {
     return `storage [ ${Context.storageUsage} bytes ]`
   }
 }
