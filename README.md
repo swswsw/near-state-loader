@@ -32,7 +32,7 @@ Unit test and mocking can only gets us so far.  We do want to test it on environ
 
 ### How does it work?
 
-
+We deploy a special loader contract that is built to make modification to the contract storage.  Once we are done, then we load the actual contract.  Since the two contracts are deployed on the same contract account, the storage will persist across the contract.  
 
 ### Work in progress / Future plan
 - provide this as a javascript library for testing using javascript.  Currently the example provided was to run this as a shell script as part of your test script
