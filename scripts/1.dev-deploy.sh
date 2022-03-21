@@ -23,6 +23,9 @@ echo
 # uncomment out the line below to deploy the other example contract
 near dev-deploy ./build/debug/simple.wasm
 
+# uncomment out the line when deploy the contract-to-test
+#near dev-deploy ./build/debug/contract-to-test.wasm
+
 echo
 echo
 echo ---------------------------------------------------------
